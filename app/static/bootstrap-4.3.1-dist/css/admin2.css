@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+.navbar, .navbar-toggler {
+    /* margin-top: 0; */
+    padding: 0;
+    padding-bottom:5px;
+    border:1px solid #e7e7e7;
+    /* position: sticky; */
+}
+.navbar .navbar-brand {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 80px;
+    padding-top: 10px;
+    /* margin-bottom: 15px; */
+    color: #777;
+   
+}
+
+.navbar .navbar-brand img {
+    width: 28px;
+    height: 28px;
+}
+
+.navbar .navbar-brand .d-inline-block{
+    margin-top: 0;
+    vertical-align: middle;
+
+}
+.collapse .navbar-nav .nav-link{
+    vertical-align: top;
+    margin-top: 0;
+}
+.collapse .navbar-nav .active {
+    border-bottom:5px solid #d9534f;
+    /* border-top:1px solid #e7e7e7; */
+    margin-top: 0;    
+}
+div .col-md-8 .jumbotron {
+    background-color: #f7bdd6;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color:#333;
+}
+.btn-danger {
+    background-color: #d9534f;
+}
+div .col-md-8 .jumbotron h4 {
+    color: rgb(194, 50, 50);
+    /* text-align: center; */
+    border-radius: 6px;
+}
+div .col-md-4 img { 
+    height: 220PX;
+    width: 360px;  
+}
+.panel {
+    background-color:white;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    /* padding-left: 10px; */
+    /* padding-top: 10px; */
+    border: 1px solid  #ebccd1;
+    border-radius: 6px;
+}
+.panel h3{
+    color: #003365;
+}
+.btn-primary {
+    background-color:#4095da;
+    border:none;
+}
+.btn-info {
+    background-color:#5ac0de;
+    border:none;
+}
+.panel-heading h6 {
+    background-color:#f2dede;
+    width:100%;
+    padding:10px;
+    color: rgb(158, 34, 34);
+    border-bottom: #ebccd1; 
+    
+}
+.panel-body{
+    padding: 10px;
+}
+#section {
+    /* border: 1px solid black; */
+    padding: 0;
+}
+#sectionv {
+    border:1px solid #e7e7e7;
+    padding-top: 75px;
+    padding-bottom: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius:0;
+}
+
+#acct {
+    border: 1px solid blue;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.btn-info {
+    background-color: #88b1db;
+}
+
