@@ -9,39 +9,34 @@
 			<div class="w3l_form">
 				<div class="left_grid_info">
 					<h1>Pay School Fees</h1>
-					<p>Donec dictum nisl nec mi lacinia, sed maximus tellus eleifend. Proin molestie cursus sapien ac eleifend.</p>
-					<img src="/static/bootstrap-4.3.1-dist/images/image.jpg" alt="" />
+					<p>Pay School Fees is an online portal for swift and seemless payment of school fees.</p>
+					<p>Get started by providing your payment details.</p>
+					<img src="/static/bootstrap-4.3.1-dist/images/pay.jpeg" alt="" />
 				</div>
 			</div>
 			<div class="w3_info">
-				<h2>Payment Details</h2>
-				<p>Enter your details to make payment.</p>
-				<form action="/" method="post">
-					<label>Registration ID</label>
-					<div class="input-group">
-						<span class="fa fa-user" aria-hidden="true"></span>
-						<input type="text" name="registration_id" placeholder="Enter Registration ID" required="true"> 
-					</div>
-					<label>Frequency</label>
-					<div class="input-group">
-						<span class="fa fa-lock" aria-hidden="true"></span>
-						<select name="frequency">
-              <option value="termly">Termly</option>
-              <option value="quarterly">Quarterly</option>
-              <option value="bi-annually">Bi-annually</option>
-              <option value="annually">Annually</option>
-            </select>
-          </div> 
-          <label> Select fees to pay</label>
-					<div class="input-group">
-            <input type="checkbox" name="school_fees" value="school_fees"> School fees<br>
-            <input type="checkbox" name="dev_levy" value="dev_levy"> Developmental levy
-            <input type="checkbox" name="pta_levy" value="pta_levy"> PTA levy
-            <input type="checkbox" name="uniform" value="uniform"> Uniform
-          </div>
-          						
-			<button class="btn btn-danger btn-block" type="submit">Proceed >></button >                
-		</form>
+			<h2>Payment Details</h2>
+			<p>Enter your details to make payment.</p>
+			<form action="/" method="POST">
+				<label>Registration ID	</label>
+					<input type="text" name="registration_id" placeholder="Enter Registration ID" required="true"><br><br>
+				<label>Frequency	</label>
+				<select name="frequency">
+				<option value="termly">Termly</option>
+				<option value="quarterly">Quarterly</option>
+				<option value="bi-annually">Bi-annually</option>
+				<option value="annually">Annually</option>
+				</select><br><br>
+				<label> Select fees to pay</label>
+				<div class="login-check">
+				<label class="checkbox"><input type="checkbox" name="fees_to_pay" value="school_fees" checked=""><i> </i> School fees</label>
+				<label class="checkbox"><input type="checkbox" name="fees_to_pay" value="dev_levy" ><i> </i> Developmental levy</label>
+				<label class="checkbox"><input type="checkbox" name="fees_to_pay" value="pta_levy" ><i> </i> PTA levy</label>
+				<label class="checkbox"><input type="checkbox" name="fees_to_pay" value="uniform"><i> </i> Uniform</label>
+				</div>
+				
+				<button class="btn btn-danger btn-block" type="submit">Proceed >></button >                
+			</form>
 		</div>
 		</div>
 		<!-- //main content -->

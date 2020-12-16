@@ -45,13 +45,13 @@ def nigerian_time():
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method=='POST':
-        #get form fields to the db
+        #get form fields
         reg_id=request.form['registration_id']
+        print(reg_id)
         frequency=request.form['frequency']
-        school_fees=request.form['school_fees']
-        dev_levy=request.form['dev_levy']
-        pta_levy=request.form['pta_levy']
-        uniform=request.form['uniform']
+        print(frequency)
+        fees_to_pay=request.form.getlist('fees_to_pay')
+        print(fees_to_pay)
         
         flash("Payment details recorded sucessfully.")
         return render_template("index.html", title="Home | Pay School Fees", home="active", year=year)
