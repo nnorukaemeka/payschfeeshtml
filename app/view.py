@@ -53,6 +53,9 @@ def index():
         fees_to_pay=request.form.getlist('fees_to_pay')
         print(fees_to_pay)
         
+        #call an api to save the data
+        
+
         flash("Payment details recorded sucessfully.")
         return render_template("index.html", title="Home | Pay School Fees", home="active", year=year)
 
